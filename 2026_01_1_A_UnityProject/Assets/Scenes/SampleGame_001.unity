@@ -552,7 +552,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029963264}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a5839860963a7904ca248ce6b8711f90, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -654,7 +654,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
-  jumpForce: 5
+  jumpForce: 7
+  turnSpeed: 10
+  falMultiplier: 2.5
+  lowJumpMultiplier: 2
+  coyoteTime: 0.15
+  coyoteTimeCounter: 0
+  realGrouned: 1
+  gliderObject: {fileID: 0}
+  gliderFallSpeed: 1
+  gliderFMoveSpeed: 7
+  gliderMaxTime: 5
+  gliderTimerLeft: 0
+  isGliding: 0
   rb: {fileID: 1029963265}
   isGrounded: 1
   coinCount: 0
