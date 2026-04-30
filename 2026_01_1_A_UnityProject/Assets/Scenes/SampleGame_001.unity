@@ -313,6 +313,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CubeGameUI
   TimerText: {fileID: 1144354263}
   Timer: 0
+--- !u!1001 &569914997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+      propertyPath: m_Name
+      value: glider
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+--- !u!1 &687732943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b176d43c5e1d4c44093cfb53dba937f3, type: 3}
+  m_PrefabInstance: {fileID: 569914997}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &758297126
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +696,7 @@ Transform:
   m_GameObject: {fileID: 1029963264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.69, z: 0}
+  m_LocalPosition: {x: 0, y: 2.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -661,7 +723,7 @@ MonoBehaviour:
   coyoteTime: 0.15
   coyoteTimeCounter: 0
   realGrouned: 1
-  gliderObject: {fileID: 0}
+  gliderObject: {fileID: 687732943}
   gliderFallSpeed: 1
   gliderFMoveSpeed: 7
   gliderMaxTime: 5
@@ -1325,3 +1387,4 @@ SceneRoots:
   - {fileID: 250201930}
   - {fileID: 1309732695}
   - {fileID: 1693556278}
+  - {fileID: 569914997}
